@@ -14,7 +14,7 @@ Cassandra is written in Rust, because:
 * Rust is fast, robust and its software is safe;
 * Rust is very performant because of its memory handling;
 * Rust supports concurrent programming;
-* Rust executables can be platform indpendents;
+* Rust executables can be platform independent;
 * I like Rust;
 
 ## Lincense
