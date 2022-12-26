@@ -2,7 +2,21 @@
 name = "cassandra"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.68.0"
+authors = ["Christian Palazzo<palazzochristian@yahoo.it>"]
+license = "MIT"
+repository = "https://github.com/g3k0/cassandra.git"
+readme = "README.md"
+keywords = ["trading", "finance", "bot", "stocks"]
+description = """
+A crate for an automated trading bot
+"""
+include = ["src/**/*", "LICENSE", "README.*", "CHANGELOG.*"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+apca = "0.25.1"
+tokio = {version = "1.0", default-features = false, features = ["rt", "macros", "rt-multi-thread"]}
+num-decimal = {version = "0.2.4", default-features = false, features = ["num-v04", "serde"]}
