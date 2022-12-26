@@ -17,6 +17,10 @@ Cassandra is written in Rust, because:
 * Rust executables can be platform independent;
 * I like Rust;
 
+For development purposes [Alpaca trading API](https://alpaca.markets/docs/api-references/trading-api/) are used. Available resources:
+* [SDK](https://github.com/d-e-s-o/apca)
+* [CLI Interface](https://github.com/d-e-s-o/apcacli)
+
 ## Lincense
 
 MIT
