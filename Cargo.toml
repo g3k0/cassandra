@@ -13,10 +13,12 @@ A crate for an automated trading bot
 """
 include = ["src/**/*", "LICENSE", "README.*", "CHANGELOG.*"]
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name="exchange_api"
+path="exchange_api/src/lib.rs"
 
 [dependencies]
-apca = "0.25.1"
 tokio = {version = "1.0", default-features = false, features = ["rt", "macros", "rt-multi-thread"]}
+apca = "0.25.1"
 num-decimal = {version = "0.2.4", default-features = false, features = ["num-v04", "serde"]}
+lazy_static = "1.4.0"

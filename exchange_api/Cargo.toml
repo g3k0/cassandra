@@ -1,0 +1,15 @@
+[package]
+name = "exchage_api"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.68.0"
+authors = ["Christian Palazzo<palazzochristian@yahoo.it>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["trading", "finance", "brokers", "stocks"]
+description = """
+A library for exchage API divided by broker
+"""
+
+[dependencies]
+
