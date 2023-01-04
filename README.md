@@ -22,7 +22,6 @@ Cassandra is written in Rust, because:
 * Rust is fast, robust and its software is safe;
 * Rust is very performant because of its memory management;
 * Rust supports concurrent programming;
-* Rust executables can be platform independent;
 * I like Rust;
 
 For development purposes Alpaca trading API are used. It is possible to find the documentation about Alpaca inside the exchage_api library. 
