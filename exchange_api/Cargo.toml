@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 keywords = ["trading", "finance", "brokers", "stocks"]
 description = """
-A library for exchage API divided by broker
+A library for exchange API by broker
 """
 
 [dependencies]
