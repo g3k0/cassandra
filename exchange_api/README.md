@@ -11,13 +11,9 @@ The library is an abstraction layer that wraps each single broker API SDK.
 ### Alpaca
 Available resources:
  * [Trading API](https://alpaca.markets/docs/api-references/trading-api/)
- * [SDK](https://github.com/d-e-s-o/apca) with [documentation](https://docs.rs/crate/apca/latest)
- * Full [SDK documentation](https://docs.rs/apca/latest/apca/)
- * [CLI Interface](https://github.com/d-e-s-o/apcacli)
  * [Postman Collections](https://github.com/alpacahq/alpaca-postman)
 
- In order to use the Alpaca API, you need to register to the web platform, choose a demo account or a real account and get the base url, api kei id and api key secret related to the account chosen. <br />
-
+In order to use the Alpaca API, you need to register to the web platform, choose a demo account or a real account and get the base url, api kei id and api key secret related to the account chosen. <br />
 Set the following env variables at system level before to use the api:
 
 ```bash
