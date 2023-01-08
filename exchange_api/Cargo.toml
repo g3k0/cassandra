@@ -10,6 +10,3 @@ keywords = ["trading", "finance", "brokers", "stocks"]
 description = """
 A library for exchange API by broker
 """
-
-[dependencies]
-

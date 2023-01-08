@@ -22,3 +22,4 @@ tokio = {version = "1.0", default-features = false, features = ["rt", "macros", 
 apca = "0.25.1"
 num-decimal = {version = "0.2.4", default-features = false, features = ["num-v04", "serde"]}
 lazy_static = "1.4.0"
+cortex-m = "0.7.7"
